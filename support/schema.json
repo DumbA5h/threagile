@@ -1102,6 +1102,37 @@
         ]
       }
     },
+    "sequence_diagrams":{
+      "description": "Sequnce Diagrams",
+      "type": "object",
+      "properties": {
+        "diagram": {
+          "description": "Diagram ID",
+          "type": "object",
+          "properties":{
+          "sequence":{
+            "description": "Sequnce information"
+            "type": "object",
+            "properties":{
+              "from":{
+                "description":"Message from",
+                "type": "string"
+              },
+              "to":{
+                "description":"Message to",
+                "type": "string"
+              },
+              "message":{
+                "description":"Message text",
+                "type": "string"
+              },
+            },
+          },
+
+          },
+        },
+      },
+    },
     "risk_tracking": {
       "description": "Risk tracking",
       "type": [
